@@ -1,0 +1,300 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    background: #34547A;
+    width:100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1125px;
+    width: 100%;
+    margin: auto;
+}
+
+.block {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header{
+    margin-top: 50px;
+}
+
+.lognav {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Revalia', cursive;
+    font-size: 48px;
+    line-height: 60px;
+    color: #34547A;
+}
+
+.navigation {
+    max-width: 612px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navitem {
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.section_dap {
+    background:#EEEFF1;
+    padding-top: 250px;
+    padding-bottom: 153px;
+    margin-top: -110px;;
+}
+
+.notebook {
+    margin-left: 85px;
+}
+
+.dap_info {
+    max-width: 540px;
+    width: 100%;
+}
+
+.dap_title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 79px;    
+    margin-bottom: 60px;    
+}
+
+.desc {
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 60px;
+}
+
+.button {
+    padding: 25px 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: #34547A;
+    color: #fff;
+}
+
+.section_title {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 112px;
+}
+
+.block_info {
+    max-width: 540px;
+    width:100%;    
+}
+
+.projects {
+    margin-top: 100px;
+    height: 250px;
+    background-color: #34547A;
+    padding-top: 100px;
+}
+
+.projecth {
+    margin-left: 20px;
+    margin-top: -23px;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    width: 36px;
+    color: #FFFFFF;
+    line-height: 25px;
+}
+
+.projectp {
+    margin-bottom: -9px;
+    margin-left: -36px;
+    margin-right: 52.33px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #FFFFFF;
+    line-height: 26px;
+}
+
+.skills {
+    padding-top: 102px;
+    padding-bottom: 102px;
+    justify-content: space-between;
+    display: inline-flex;
+    margin-left: 386px;
+}
+
+.man {
+    width: 555px;
+    height: 450px;
+    display: flex;
+    margin-left: 150px;
+}
+
+.abilities {
+    margin-top: 50px;
+}
+
+.way {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 445px;
+    height: 4px;
+    background: linear-gradient(to right,#34547A 75%,
+    #C4C4C4 25%);
+}
+
+.desc_abilities {
+    color: #727272;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.title_info {
+    font-size: 32px;
+}
+
+.section_hiw {
+    background: #EEEFF1;
+    padding-bottom: 100px;
+}
+
+.play_button {
+ position: absolute;
+ margin-top: 240px;
+ margin-left: 220px;
+}
+
+.videoplay {
+max-width: 1110px;
+height: 600px;
+width: 100%;
+margin-left: 405px;
+}
+
+.cards {
+    max-width: 1980px;
+    width: 100%;
+    padding: 0px;
+    margin-top: 28px;
+}
+
+.cardsshit {
+    display: flex;
+    
+}
+
+.picturesblock {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.pictures {
+width: 475px;
+height: 475px;
+}
+
+.container_microsoft{
+    display: flex;
+    justify-content: center;
+    margin-top: 72px;
+    margin-right: 405px;
+    margin-bottom: 100px;
+    margin-left: 405px;
+}
+
+.microsoft_logo {
+    margin-right:30px;
+}
+
+.connection {
+    background:#EEEFF1;
+}
+
+.form {
+    max-width: 540px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input--half {
+    width: 255px;
+    height: 50px;
+    padding-left:20px;
+    border:none;
+    outline: none;
+}
+
+.input--message {
+    min-height: 175px;
+    margin-bottom: 50px;
+    padding-bottom: 143px;
+    padding-top: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border:none;
+    outline: none;
+    resize: none;
+    font-family: roboto, sans-serif;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+
+}
+.footer_name {
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.lastandfirstname {
+    font-weight: 500;
+    font-size: 21px;
+    margin-bottom: 20px;
+    color: #fff;
+
+}
+.allrightsreserved {
+    color: #fff;
+    font-size: 13px;
+    font-weight: normal;
+    width: 193px 
+}
+
+.vk {
+    margin-left: 22px
+}
